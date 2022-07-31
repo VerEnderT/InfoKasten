@@ -43,7 +43,7 @@ chmod +x install.sh
 sudo ./install.sh
 
 
-#TestTools:
+# TestTools:
 
 tastaturtest.py <-- ist ein programm zum Testen der Tastatur unter linux. nicht mit windows kompatible da die keycodes anders sind.
 
