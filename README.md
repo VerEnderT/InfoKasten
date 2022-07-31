@@ -7,7 +7,7 @@ um sich ein eigenes Linux Live System daraus zu bauen empfehle ich ein auf ubunt
 als Benutzer habe ich user mit passwort user verwendet. der auch sudo rechte haben muss. Name und password müssen sonst in start.py 
 und menu.py angepasst werden. Am besten auch automatisches einlogen.
 
-wichtig für #wstart.py und menu.py oder muss in den Dateien geändert werden. 
+wichtig für start.py und menu.py oder muss in den Dateien geändert werden. 
 In näherer zukunft wird das noch vereinfachter vielleicht mit config datei.
 
 Benutzer: user
@@ -43,7 +43,8 @@ chmod +x install.sh
 sudo ./install.sh
 
 
-TestTools :
+#TestTools:
+
 tastaturtest.py <-- ist ein programm zum Testen der Tastatur unter linux. nicht mit windows kompatible da die keycodes anders sind.
 
 soundtest <-- startet nur eine test mp3 in einem Vlc player und wird direkt von der menu.py gestartet.
