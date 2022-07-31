@@ -11,9 +11,7 @@ wichtig für start.py und menu.py oder muss in den Dateien geändert werden.
 In näherer zukunft wird das noch vereinfachter vielleicht mit config datei.
 
 Benutzer: user
-
 Passwort: user
-
 Verzeichnis /home/user/tools/
 
 wenn system installiert ist sollten so wenig wie möglich an anderen programmen drauf sein,
