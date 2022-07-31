@@ -9,13 +9,16 @@ und menu.py angepasst werden. Am besten auch automatisches einlogen.
 
 wichtig für start.py und menu.py oder muss in den Dateien geändert werden. 
 In näherer zukunft wird das noch vereinfachter vielleicht mit config datei.
+
 Benutzer: user
+
 Passwort: user
+
 Verzeichnis /home/user/tools/
 
 wenn system installiert ist sollten so wenig wie möglich an anderen programmen drauf sein,
 das mach das image später schlanker und kann startzeiten verbessern.
-für die tools benötigte software muss installiert sein:\n
+Für die tools benötigte software muss installiert sein:
 
 python3 getestet 3.8.10
 
