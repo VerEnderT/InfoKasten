@@ -7,10 +7,11 @@ um sich ein eigenes Linux Live System daraus zu bauen empfehle ich ein auf ubunt
 als Benutzer habe ich user mit passwort user verwendet. der auch sudo rechte haben muss. Name und password müssen sonst in start.py 
 und menu.py angepasst werden. Am besten auch automatisches einlogen.
 
-# wichtig für start.py und menu.py oder muss in den Dateien geändert werden. in näherer zukunft wird das noch vereinfachter vielleicht mit config datei.
-benutzer: user
-passwort: user
-verzeichnis /home/user/tools/
+wichtig für start.py und menu.py oder muss in den Dateien geändert werden. 
+In näherer zukunft wird das noch vereinfachter vielleicht mit config datei.
+Benutzer: user
+Passwort: user
+Verzeichnis /home/user/tools/
 
 wenn system installiert ist sollten so wenig wie möglich an anderen programmen drauf sein,
 das mach das image später schlanker und kann startzeiten verbessern.
