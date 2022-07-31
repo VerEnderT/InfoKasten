@@ -17,21 +17,31 @@ wenn system installiert ist sollten so wenig wie möglich an anderen programmen 
 das mach das image später schlanker und kann startzeiten verbessern.
 für die tools benötigte software muss installiert sein:\n
 
-\n
-python3 getestet 3.8.10\n
-python3-tk\n
-vlc\n
-cheese\n
-\n
-für die installation von Systemback empfehle ich folgende befehle.\n
-Mit Systemback kann man eigene Kopien vom installierten system machen und live cd bzw usb sticks erstellen.\n
-\n
-#Systemback installieren\n
-git clone https://github.com/fconidi/systemback-install_pack-1.9.4.git\n
-cd systemback-install_pack-1.9.4/\n
-chmod +x install.sh\n
-sudo ./install.sh\n
-\n
+python3 getestet 3.8.10
+
+python3-tk
+
+vlc
+
+cheese
+
+
+für die installation von Systemback empfehle ich folgende befehle.
+
+Mit Systemback kann man eigene Kopien vom installierten system machen und live cd bzw usb sticks erstellen.
+
+
+#Systemback installieren
+
+git clone https://github.com/fconidi/systemback-install_pack-1.9.4.git
+
+cd systemback-install_pack-1.9.4
+
+chmod +x install.sh
+
+sudo ./install.sh
+
+
 TestTools :
 tastaturtest.py <-- ist ein programm zum Testen der Tastatur unter linux. nicht mit windows kompatible da die keycodes anders sind.
 soundtest <-- startet nur eine test mp3 in einem Vlc player und wird direkt von der menu.py gestartet.
